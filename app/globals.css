@@ -13,3 +13,7 @@ button:disabled { opacity: .4; cursor: not-allowed; }
 .muted { color: #555; font-size: 14px; }
 .bar { height: 6px; background: #ddd; border-radius: 3px; margin-bottom: 12px; }
 .bar > div { height: 100%; background: #111; border-radius: 3px; }
+input[type=text], input:not([type]), input[inputmode] { display: block; width: 100%; font: inherit; padding: 10px 12px; margin: 8px 0; border: 1px solid #999; border-radius: 8px; }
+.check { display: flex; gap: 8px; align-items: flex-start; margin: 12px 0 4px; font-size: 14px; }
+.check input { margin-top: 4px; }
+a.tg { display: inline-block; background: #229ed9; color: #fff; padding: 10px 14px; border-radius: 8px; text-decoration: none; }
